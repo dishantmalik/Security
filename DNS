@@ -17,4 +17,30 @@ The domain tree (domain name space) can have upto 127 levels in the tree (total 
 ##PQDN - Partially Qualified Domain Name - any domain that doesn't have the root domain is a PQDN. Examples: Google or Shop.Amazon
 
 
-##Zone
+##Zone - Since the complete domain name hierarchy cannot be stored on a single server, it is divided among many servers. What a server is responsible or has authority over is called a zone. We can define zone as a contiguous part of a domain tree. The server makes a zone file (which is a db that keeps all the information for every node under that domain. The info about the nodes in the sub-domains is stored in the servers at the lower level servers.
+
+#Root-Server - tbd
+#Primary and Secondary DNS Server - tbd
+# Registrar
+# Resolution
+  #Resolver
+  #recursive vs Iterative resolution
+  # Caching
+ 
+# DNS Messages
+  #Format
+  # Types of records
+  # Query/Response
+  
+ # DNS Attacks
+ # DNS Security
+ 
+ Example of how DNS works when website.com is typed in a browser, what system files are checked.
+ 
+ MacOS - DNS files and location
+  # Difference between resolv.conf and /etc/hosts
+  # flush DNS - sudo killall -HUP mDNSResponder
+
+ WinOS - DNS files
+  # flush DNS - cmd - ipconfig /flushdns
+
