@@ -39,8 +39,8 @@ The domain tree (domain name space) can have upto 127 levels in the tree (total 
  
  MacOS - DNS files and location
   # Difference between resolv.conf and /etc/hosts
-  # flush DNS - sudo killall -HUP mDNSResponder
+  # flush DNS - `sudo killall -HUP mDNSResponder`
 
  WinOS - DNS files
-  # flush DNS - cmd - ipconfig /flushdns
+  # flush DNS - cmd - `ipconfig /flushdns`
 
