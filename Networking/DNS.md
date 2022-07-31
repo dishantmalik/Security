@@ -32,7 +32,7 @@ The domain tree (domain name space) can have upto 127 levels in the tree (total 
   # Types of records
   # Query/Response
   
- # DNS Attacks
+ # DNS Attacks - DNS Exfiltration and DNS Tunneling
  # DNS Security
  
  Example of how DNS works when website.com is typed in a browser, what system files are checked.
