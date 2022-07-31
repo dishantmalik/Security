@@ -6,7 +6,7 @@ In tele-communications or Computer Networking, DNS is used to perform resolution
 
  Domain Name Space - The Domain name space is an inverted-tree structure with the root at the top
 
-## An example of domain would like www.domain.com. (A domain is a sequence of labels separated by dots (.)). A more formal definition of the domain name is a  sub-tree of the domain name space.
+An example of domain would like www.domain.com. (A domain is a sequence of labels separated by dots (.)). A more formal definition of the domain name is a  sub-tree of the domain name space.
 
 The last . is the root domain (the root node of the tree). The root label is a null string (empty string)
 The next is the top level domain (TLD) called com; this can be com, net, org, us, in, etc etc.
