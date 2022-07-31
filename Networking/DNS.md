@@ -8,11 +8,11 @@ In tele-communications or Computer Networking, DNS is used to perform resolution
 
 An example of domain would like www.domain.com. (A domain is a sequence of labels separated by dots (.)). A more formal definition of the domain name is a  sub-tree of the domain name space.
 
-The last . is the root domain (the root node of the tree). The root label is a null string (empty string)
-The next is the top level domain (TLD) called com; this can be com, net, org, us, in, etc etc.
-The next is the second level domain (SLD) called domain, or google, or amazon or any of the domains in the world.
-The next is the third level domain called www, which is a sub-domain to the domain. Examples: maps.google.com, shop.amazon.com, etc - you get the idea.
-The domain tree (domain name space) can have upto 127 levels in the tree (total excluding root domain level 0). 128 levels including root (level 0)
+- The last . is the root domain (the root node of the tree). The root label is a null string (empty string)
+- The next is the top level domain (TLD) called com; this can be com, net, org, us, in, etc etc.
+- The next is the second level domain (SLD) called domain, or google, or amazon or any of the domains in the world.
+- The next is the third level domain called www, which is a sub-domain to the domain. Examples: maps.google.com, shop.amazon.com, etc - you get the idea.
+- The domain tree (domain name space) can have upto 127 levels in the tree (total excluding root domain level 0). 128 levels including root (level 0)
 
 ## FQDN - Fully Qualified Domain Name - any domain name (or label) that terminates with the root domain is a fully qualified domain name. Examples: google.com. or com. 
 
