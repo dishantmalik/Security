@@ -4,7 +4,7 @@ In tele-communications or Computer Networking, DNS is used to perform resolution
 
 ## DNS Follows hierarchical name space 
 
-## Domain Name Space - The Domain name space is an inverted-tree structure with the root at the top
+ Domain Name Space - The Domain name space is an inverted-tree structure with the root at the top
 
 ## An example of domain would like www.domain.com. (A domain is a sequence of labels separated by dots (.)). A more formal definition of the domain name is a  sub-tree of the domain name space.
 
