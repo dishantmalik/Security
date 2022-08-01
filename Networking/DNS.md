@@ -35,6 +35,28 @@ An example of domain would like www.domain.com. (A domain is a sequence of label
   # Query/Response
   
  # DNS Attacks - DNS Exfiltration and DNS Tunneling
+ 
+ ## Foiling DNS
+ 
+ Here is how the Foiling DNS attack works:
+
+ `Step 1:` The victim uses a program/browser that resolves the domain name of a website (randombank.com) to an IP address. 
+ `Step 2:` When the DNS request is being made, the attacker uses an MiTM program to sniff the DNS requests and sends a DNS response (to see the DNS requests the attacker may have to use ARP Cache poisoning technique)
+ `Step 3:` The victim now surfs wherever the attacks wants them to.
+ 
+ Note: Later a response from the real DNS server will come back but the victim will have already cached the earlier fake response. The real response is ignored because it comes too late. 
+ 
+ The attacker doesn't have to be on the same LAN as the victim for this attack to work, they just need to be sitting between the victim and the DNS server.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  # DNS Security
  
  Example of how DNS works when website.com is typed in a browser, what system files are checked.
