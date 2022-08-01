@@ -2,6 +2,8 @@
 
 In tele-communications or Computer Networking, DNS is used to perform resolution of domain names to its corresponding IP addresses or vice-versa.
 
+DNS uses TCP or UDP for communications. Mostly, UDP is used but for zone transfers and if the message increases 512 bytes, TCP is used.
+
 ## DNS Follows hierarchical name space 
 
  Domain Name Space - The Domain name space is an inverted-tree structure with the root at the top
@@ -48,9 +50,16 @@ An example of domain would like www.domain.com. (A domain is a sequence of label
  
  The attacker doesn't have to be on the same LAN as the victim for this attack to work, they just need to be sitting between the victim and the DNS server.
  
+# Prevention or Remediation
+
+At the `Client` side this can be prevented (not completely) by using better practices like:
+
+- Using VPN so that the end to end communication can be encrypted.
+- Using Spoof detection tools 
+- Regularly flushing DNS cache to make sure there are no malicious entries that are stored in there.
  
- 
- 
+
+At the `Server` side this can be prevented by using DNSSEC which using public-key cryptography to encrypt the communication. However, its a new protocol and configuration errors can lead to eroded security. Additionally, DNSSEC uses more records and is therefore vulnerable to zone enumeration attack, which uses one record to walk through and collect all DNS records from a particular zone.
  
  
  
