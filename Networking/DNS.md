@@ -21,7 +21,7 @@ An example of domain would like www.domain.com. (A domain is a sequence of label
 ## PQDN - Partially Qualified Domain Name - any domain that doesn't have the root domain is a PQDN. Examples: Google or Shop.Amazon
 
 
-## Zone - Since the complete domain name hierarchy cannot be stored on a single server, it is divided among many servers. What a server is responsible or has authority over is called a zone. We can define zone as a contiguous part of a domain tree. The server makes a zone file (which is a db that keeps all the information for every node under that domain. The info about the nodes in the sub-domains is stored in the servers at the lower level servers.
+## Zone - Since the complete domain name hierarchy cannot be stored on a single server, it is divided among many servers. What a server is responsible or has authority over is called a zone. We can define zone as a contiguous part of a domain tree. The server makes a zone file (which is a db that keeps all the information for every node under that domain). The info about the nodes in the sub-domains is stored on the servers at the lower level servers.
 
 #Root-Server - tbd
 #Primary and Secondary DNS Server - tbd
