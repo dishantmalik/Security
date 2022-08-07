@@ -63,7 +63,8 @@ At the `Server` side this can be prevented by using DNSSEC which using public-ke
  
  
  
- 
+ DNSCat2 tool for DNS exfiltration
+ DNS exfiltration technique - https://hinty.io/devforth/dns-exfiltration-of-data-step-by-step-simple-guide/
  
  
  # DNS Security
