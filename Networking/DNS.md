@@ -1,4 +1,7 @@
+Read about domain lock in the domain management settings
+
 # Domain Name System
+
 
 In tele-communications or Computer Networking, DNS is used to perform resolution of domain names to its corresponding IP addresses or vice-versa.
 
