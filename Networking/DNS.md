@@ -1,4 +1,7 @@
-Read about domain lock in the domain management settings
+- Read about domain lock in the domain management settings
+- In order for integrating your website domain with CloudFlare, update the name server records in the domain provider to nameservers of CloudFlare. 
+- Good practice while setting up domain, enable Automatic HTTPS rewrites to prevent access on HTTP.
+
 
 # Domain Name System
 
